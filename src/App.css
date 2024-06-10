@@ -1,0 +1,41 @@
+*{
+  background-color: rgb(121, 121, 146);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.quote-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.saved-quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.saved-quote {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+.get_Quote{
+  padding: 6px 10px;
+  margin: 2px;
+  background-color: #000;
+  color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+.get_Quote:hover{
+  background-color: #ccc;
+  color: #000;
+  transition: all ease-in 0.3s;
+}
